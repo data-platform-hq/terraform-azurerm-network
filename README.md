@@ -1,5 +1,5 @@
-# Azure <> Terraform module
-Terraform module for creation Azure <>
+# Azure Virtual Network Terraform module
+Terraform module for creation Azure Virtual Network
 
 ## Usage
 
@@ -49,4 +49,4 @@ No modules.
 
 ## License
 
-Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm<>/tree/master/LICENSE)
+Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm-network/tree/main/LICENSE)
