@@ -17,3 +17,7 @@ output "name_to_id_map" {
   value       = { (azurerm_virtual_network.this.name) = azurerm_virtual_network.this.id }
   description = "Map of Virtual Network Name to Id"
 }
+
+output "dns_server_id" {
+  value = length(var.custom_dns) == 0 ? "" : azurerm_virtual_network_dns_servers.this[0].id
+}
