@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.1.0...v1.2.0) (2022-12-06)
+
+
+### Features
+
+* added custom dns servers ip ranges ([cb4f460](https://github.com/data-platform-hq/terraform-azurerm-network/commit/cb4f460c76e0d06500f617369fc8ef846cbc2fc1))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.0.0...v1.1.0) (2022-10-20)
 
 
