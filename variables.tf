@@ -1,4 +1,3 @@
-# Required
 variable "project" {
   type        = string
   description = "Project name"
@@ -24,9 +23,14 @@ variable "cidr" {
   description = "The address space that is used the virtual network. You can supply more than one address space."
 }
 
-# Optional
 variable "tags" {
   type        = map(any)
   description = "A mapping of tags to assign to the resource"
   default     = {}
+}
+
+variable "custom_dns" {
+  type        = list(string)
+  description = "List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network."
+  default     = []
 }
