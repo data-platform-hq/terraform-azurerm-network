@@ -1,5 +1,8 @@
+locals {
+  name = var.custom_vnet_name == null ? "vnet-${var.project}-${var.env}-${var.location}" : var.custom_vnet_name
+}
 resource "azurerm_virtual_network" "this" {
-  name                = "vnet-${var.project}-${var.env}-${var.location}"
+  name                = local.name
   address_space       = var.cidr
   location            = var.location
   resource_group_name = var.resource_group
