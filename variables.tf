@@ -23,6 +23,12 @@ variable "cidr" {
   description = "The address space that is used the virtual network. You can supply more than one address space."
 }
 
+variable "custom_vnet_name" {
+  type        = string
+  description = "The name of the virtual network"
+  default     = null
+}
+
 variable "tags" {
   type        = map(any)
   description = "A mapping of tags to assign to the resource"
