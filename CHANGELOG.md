@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.2.0...v1.3.0) (2023-03-09)
+
+
+### Bug Fixes
+
+* updated provider version ([e6ca54d](https://github.com/data-platform-hq/terraform-azurerm-network/commit/e6ca54df54f4dda90fb604d6a93d3f344739d541))
+
+
+### Features
+
+* added custom name for resource ([032e926](https://github.com/data-platform-hq/terraform-azurerm-network/commit/032e9261a3a6927b4a0608bd2f0f559d94721ea8))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.1.0...v1.2.0) (2022-12-06)
 
 
