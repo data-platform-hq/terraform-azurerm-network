@@ -40,6 +40,7 @@ No modules.
 | <a name="input_custom_vnet_name"></a> [custom\_vnet\_name](#input\_custom\_vnet\_name) | The name of the virtual network                                                                 | `string`       | `null`  |    no    |
 | <a name="input_tags"></a> [tags](#input\_tags)                                         | A mapping of tags to assign to the resource                                                     | `map(any)`     | `{}`    |    no    |
 | <a name="input_custom_dns"></a> [custom\_dns](#input\_custom\_dns)                     | List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network. | `list(string)` | `[]`    |    no    |
+| <a name="input_suffix"></a> [suffix](#input\_suffix)                     | Optional suffix that would be added to the end of resources names. | `string` | "" |    no    |
 
 ## Outputs
 

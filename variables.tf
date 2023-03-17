@@ -40,3 +40,9 @@ variable "custom_dns" {
   description = "List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network."
   default     = []
 }
+
+variable "suffix" {
+  type        = string
+  description = "Optional suffix that would be added to the end of resources names."
+  default     = ""
+}
