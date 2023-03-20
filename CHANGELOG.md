@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.0...v1.3.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* add suffix ([3472d48](https://github.com/data-platform-hq/terraform-azurerm-network/commit/3472d480fc937e5cd24be1002af3b7a0d62f6cd7))
+* terraform fmt ([a6316dd](https://github.com/data-platform-hq/terraform-azurerm-network/commit/a6316dda759b9f8440e3d14911d5a8b99bb4192b))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.2.0...v1.3.0) (2023-03-09)
 
 
