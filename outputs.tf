@@ -15,7 +15,7 @@ output "name" {
 
 output "resource_group" {
   value       = azurerm_virtual_network.this.resource_group_name
-  description = "The name of the resource group in which to create the virtual network."
+  description = "The name of the resource group where Virtual Network is created."
 }
 
 output "name_to_id_map" {
