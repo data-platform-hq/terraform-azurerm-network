@@ -46,9 +46,10 @@ No modules.
 
 | Name                                                                       | Description                            |
 | -------------------------------------------------------------------------- | -------------------------------------- |
-| <a name="output_guid"></a> [guid](#output\_guid)                           | The GUID of the Virtual Network.       |
 | <a name="output_id"></a> [id](#output\_id)                                 | The ID of the Virtual Network.         |
+| <a name="output_guid"></a> [guid](#output\_guid)                           | The GUID of the Virtual Network.       |
 | <a name="output_name"></a> [name](#output\_name)                           | The name of the Virtual Network.       |
+| <a name="output_name"></a> [resource\_group](#output\_resource\_group)     | The name of the resource group in which to create the virtual network.|
 | <a name="output_name"></a> [name\_to\_id\_map](#output\_name\_to\_id\_map) | Map of Virtual Network name to its ID. |
 | <a name="output_name"></a> [custom\_dns](#output\_dns\_server\_id)         | The virtual network DNS server ID      |
 <!-- END_TF_DOCS -->
