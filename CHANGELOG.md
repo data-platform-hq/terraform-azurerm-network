@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.1...v1.3.2) (2023-05-09)
+
+
+### Bug Fixes
+
+* output resource_group ([9619623](https://github.com/data-platform-hq/terraform-azurerm-network/commit/9619623cffd6b65af70b5024d6f96c532bc9ed33))
+* updated output decription ([602ecfd](https://github.com/data-platform-hq/terraform-azurerm-network/commit/602ecfdcc305b49775f1547a470f0f75dada2ae0))
+
 ## [1.3.1](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.0...v1.3.1) (2023-03-20)
 
 
