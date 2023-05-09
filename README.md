@@ -2,6 +2,26 @@
 Terraform module for creation Azure Virtual Network
 
 ## Usage
+This module provides an ability to deploy Azure virtual network and Manages the DNS servers associated with a virtual network.
+```hcl
+locals {
+    cidr = "10.1.0.0/16"
+    custom_dns = "10.1.7.2", "10.1.7.1"
+}
+
+resource "azurerm_virtual_network" "example" {
+  name                = "example-vnet"
+  resource_group_name = "example-rg"
+  location            = "eastus"
+  address_space       = local.cidr
+  tags                = "development"
+}
+
+module "azurerm_virtual_network_dns_servers" {
+  virtual_network_id = azurerm_virtual_network.example.id
+  dns_servers        = local.custom_dns
+}
+```
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -46,9 +66,10 @@ No modules.
 
 | Name                                                                       | Description                            |
 | -------------------------------------------------------------------------- | -------------------------------------- |
-| <a name="output_guid"></a> [guid](#output\_guid)                           | The GUID of the Virtual Network.       |
 | <a name="output_id"></a> [id](#output\_id)                                 | The ID of the Virtual Network.         |
+| <a name="output_guid"></a> [guid](#output\_guid)                           | The GUID of the Virtual Network.       |
 | <a name="output_name"></a> [name](#output\_name)                           | The name of the Virtual Network.       |
+| <a name="output_name"></a> [resource\_group](#output\_resource\_group)     | The name of the resource group in which to create the virtual network.|
 | <a name="output_name"></a> [name\_to\_id\_map](#output\_name\_to\_id\_map) | Map of Virtual Network name to its ID. |
 | <a name="output_name"></a> [custom\_dns](#output\_dns\_server\_id)         | The virtual network DNS server ID      |
 <!-- END_TF_DOCS -->
