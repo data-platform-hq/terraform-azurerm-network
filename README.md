@@ -2,26 +2,6 @@
 Terraform module for creation Azure Virtual Network
 
 ## Usage
-This module provides an ability to deploy Azure virtual network and Manages the DNS servers associated with a virtual network.
-```hcl
-locals {
-    cidr = "10.1.0.0/16"
-    custom_dns = "10.1.7.2", "10.1.7.1"
-}
-
-resource "azurerm_virtual_network" "example" {
-  name                = "example-vnet"
-  resource_group_name = "example-rg"
-  location            = "eastus"
-  address_space       = local.cidr
-  tags                = "development"
-}
-
-module "azurerm_virtual_network_dns_servers" {
-  virtual_network_id = azurerm_virtual_network.example.id
-  dns_servers        = local.custom_dns
-}
-```
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
