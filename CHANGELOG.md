@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.2...v1.4.0) (2023-12-21)
+
+
+### Bug Fixes
+
+* fmt ([bf6c386](https://github.com/data-platform-hq/terraform-azurerm-network/commit/bf6c386302dd4e13dba64c2d3e442778ba03f6c4))
+* removed condition from custom dns resource ([6228d85](https://github.com/data-platform-hq/terraform-azurerm-network/commit/6228d85fc4274cd0b2368c2ed3a7b48bb1971d43))
+
+
+### Features
+
+* updated naming convention ([a0c2c52](https://github.com/data-platform-hq/terraform-azurerm-network/commit/a0c2c528faf67c96dcefdb85c029b7fb0c54debd))
+
 ## [1.3.2](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.1...v1.3.2) (2023-05-09)
 
 
