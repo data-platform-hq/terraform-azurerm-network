@@ -1,5 +1,5 @@
 variable "vnet_name" {
-  type = string
+  type        = string
   description = "Given name to virtual network"
 }
 
