@@ -1,11 +1,6 @@
-variable "project" {
+variable "vnet_name" {
   type        = string
-  description = "Project name"
-}
-
-variable "env" {
-  type        = string
-  description = "Environment name"
+  description = "Given name to virtual network"
 }
 
 variable "resource_group" {
@@ -23,12 +18,6 @@ variable "cidr" {
   description = "The address space that is used the virtual network. You can supply more than one address space."
 }
 
-variable "custom_vnet_name" {
-  type        = string
-  description = "The name of the virtual network"
-  default     = null
-}
-
 variable "tags" {
   type        = map(any)
   description = "A mapping of tags to assign to the resource"
@@ -39,10 +28,4 @@ variable "custom_dns" {
   type        = list(string)
   description = "List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network."
   default     = []
-}
-
-variable "suffix" {
-  type        = string
-  description = "Optional suffix that would be added to the end of resources names."
-  default     = ""
 }

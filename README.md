@@ -30,17 +30,14 @@ No modules.
 
 ## Inputs
 
-| Name                                                                                   | Description                                                                                     | Type           | Default | Required |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------- | ------- | :------: |
-| <a name="input_cidr"></a> [cidr](#input\_cidr)                                         | The address space that is used the virtual network. You can supply more than one address space. | `list(string)` | n/a     |   yes    |
-| <a name="input_env"></a> [env](#input\_env)                                            | Environment name                                                                                | `string`       | n/a     |   yes    |
-| <a name="input_location"></a> [location](#input\_location)                             | Azure location                                                                                  | `string`       | n/a     |   yes    |
-| <a name="input_project"></a> [project](#input\_project)                                | Project name                                                                                    | `string`       | n/a     |   yes    |
-| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group)         | The name of the resource group in which to create the storage account                           | `string`       | n/a     |   yes    |
-| <a name="input_custom_vnet_name"></a> [custom\_vnet\_name](#input\_custom\_vnet\_name) | The name of the virtual network                                                                 | `string`       | `null`  |    no    |
-| <a name="input_tags"></a> [tags](#input\_tags)                                         | A mapping of tags to assign to the resource                                                     | `map(any)`     | `{}`    |    no    |
-| <a name="input_custom_dns"></a> [custom\_dns](#input\_custom\_dns)                     | List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network. | `list(string)` | `[]`    |    no    |
-| <a name="input_suffix"></a> [suffix](#input\_suffix)                     | Optional suffix that would be added to the end of resources names. | `string` | "" |    no    |
+| Name                                                                           | Description                                                                                     | Type           | Default | Required |
+|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------| -------------- | ------- | :------: |
+| <a name="input_vnet_name"></a> [vnet\_name](#input\_vnet\_name)                   | Given name to virtual network                                                                   | `string`       | n/a     |   yes    |
+| <a name="input_cidr"></a> [cidr](#input\_cidr)                                 | The address space that is used the virtual network. You can supply more than one address space. | `list(string)` | n/a     |   yes    |
+| <a name="input_location"></a> [location](#input\_location)                     | Azure location                                                                                  | `string`       | n/a     |   yes    |
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | The name of the resource group in which to create the storage account                           | `string`       | n/a     |   yes    |
+| <a name="input_tags"></a> [tags](#input\_tags)                                 | A mapping of tags to assign to the resource                                                     | `map(any)`     | `{}`    |    no    |
+| <a name="input_custom_dns"></a> [custom\_dns](#input\_custom\_dns)             | List of IP Addresses of DNS servers. Manages the DNS servers associated with a virtual network. | `list(string)` | `[]`    |    no    |
 
 ## Outputs
 
