@@ -24,6 +24,6 @@ output "name_to_id_map" {
 }
 
 output "dns_server_id" {
-  value       = length(var.custom_dns) == 0 ? "" : azurerm_virtual_network_dns_servers.this[0].id
+  value       = try(azurerm_virtual_network_dns_servers.this.id, null)
   description = "The virtual network DNS server ID"
 }
