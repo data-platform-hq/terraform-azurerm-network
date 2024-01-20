@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.4.0...v1.4.1) (2024-01-20)
+
+
+### Bug Fixes
+
+* added diagnostic settings support ([4404852](https://github.com/data-platform-hq/terraform-azurerm-network/commit/440485266db959df91b237e6e1670178c5795e07))
+
 # [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.3.2...v1.4.0) (2023-12-21)
 
 
