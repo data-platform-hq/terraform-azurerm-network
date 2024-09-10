@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.4.1...v1.5.0) (2024-09-10)
+
+
+### Bug Fixes
+
+* replaced pre-commit repo docs creation/update by GH Actions ([8376be0](https://github.com/data-platform-hq/terraform-azurerm-network/commit/8376be02b14c60bc7278a1879d99efe767f0eac5))
+
+
+### Features
+
+* upgrade to AzureRM v4 ([0a06e3d](https://github.com/data-platform-hq/terraform-azurerm-network/commit/0a06e3dff284de0381636ed79b20932585d24b3c))
+
 ## [1.4.1](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.4.0...v1.4.1) (2024-01-20)
 
 
