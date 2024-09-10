@@ -4,7 +4,6 @@ Terraform module for creation Azure Virtual Network
 ## Usage
 
 <!-- BEGIN_TF_DOCS -->
-## TODO - Update Docs
 ## Requirements
 
 | Name | Version |
