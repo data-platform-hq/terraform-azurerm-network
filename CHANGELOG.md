@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.5.0...v1.6.0) (2026-02-02)
+
+
+### Features
+
+* upgrade provider to AzureRM v4.0 ([7e88914](https://github.com/data-platform-hq/terraform-azurerm-network/commit/7e88914c59bbbd2da2b78dc658039eff87eebee9))
+
 # [1.5.0](https://github.com/data-platform-hq/terraform-azurerm-network/compare/v1.4.1...v1.5.0) (2024-09-10)
 
 
